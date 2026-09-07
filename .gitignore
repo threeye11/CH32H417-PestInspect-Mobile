@@ -1,0 +1,28 @@
+# ==================== 编译产物 ====================
+obj/
+*.o
+*.d
+*.elf
+*.lst
+*.map
+*.bin
+*.hex
+*.lst.bak
+
+# ==================== MounRiver Studio IDE ====================
+.mrs/
+*.backup
+*.bak_
+
+# ==================== AI 工具配置（个人使用，不入库） ====================
+.claude/
+CLAUDE.md
+AGENTS.md
+**/docs/superpowers/
+
+# ==================== 操作系统 / 编辑器 ====================
+Thumbs.db
+.DS_Store
+desktop.ini
+*.swp
+*~
