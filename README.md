@@ -84,6 +84,3 @@ K230 与 CH32 通过 USART5 通信（921600 波特率），支持启停、模式
 - K230 初始化需放在 OneNET 连接之后，避免 USART5 中断干扰 MQTT 建链。
 - 仓库已去除个人云端凭证与 API Key，克隆后请按上文「云平台与 API 配置」填写自己的凭证。
 
-## 致谢
-
-第三方开源组件：[LVGL](https://github.com/lvgl/lvgl)（MIT）、[FreeRTOS](https://github.com/FreeRTOS/FreeRTOS-Kernel)（MIT）、OneNET MQTT 接入 SDK、嘉楠 K230 CanMV 官方 AI 库，各自遵循其原始许可证。
